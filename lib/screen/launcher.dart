@@ -21,18 +21,28 @@ class LauncherScreen extends StatelessWidget {
                 child: Stack(
                   alignment: AlignmentDirectional.bottomCenter,
                   children: [
-                    Center(
-                        child: Padding(
+                    Padding(
                       padding: const EdgeInsets.all(15.0),
-                      child: Text(
-                        'You can get the best meal from us!',
-                        style: TextStyle(
-                            fontSize: 35.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold),
-                        textAlign: TextAlign.center,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text('FOODIE!',
+                              style: TextStyle(
+                                  fontSize: 35.0,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold)),
+                          Text(
+                            'You can get the best meal from us!',
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                            textAlign: TextAlign.center,
+                          )
+                        ],
                       ),
-                    ))
+                    )
                   ],
                 ),
               ),
