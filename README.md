@@ -1,16 +1,5 @@
 # food_project
 
-A new Flutter project.
+This is a flutter personal project that wants to solve the problem of food delivery system in Imo state. Imo state has one of the highest number of restaurants and hotels in Nigeria but with poor service delivery system. People want to be able buy food, drinks and other edibles at the comfort of their homes and get it delivered to them.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Foodie! is a mobile application that wants to incorporates virtually all restaurants within the state geared towards ensuring customers gets value for money at the comfort of their home. 
