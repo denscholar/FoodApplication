@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:food_project/screen/sign_up.dart';
 
 class LauncherScreen extends StatelessWidget {
+  void signUpScreen(BuildContext context) {
+    Navigator.of(context).pushNamed(SignUpScreen.routeName);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,7 +55,9 @@ class LauncherScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      signUpScreen(context);
+                    },
                     // style: ElevatedButton.styleFrom(
                     //   padding:
                     //       EdgeInsets.symmetric(horizontal: 70, vertical: 20),

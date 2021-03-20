@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_project/screen/sign_up.dart';
 
 import 'screen/launcher.dart';
 
@@ -16,6 +17,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      routes: {
+        SignUpScreen.routeName: (context) => SignUpScreen(),
+        
+      },
     );
   }
 }
